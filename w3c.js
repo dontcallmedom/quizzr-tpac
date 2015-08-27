@@ -1,7 +1,7 @@
 function __renderDOMDetails(obj) {
   var div = document.createElement("div");
   var p = document.createElement("p");
-  p.appendChild(document.createTextNode("Member Affiliation: " + obj.affiliation));
+  p.appendChild(document.createTextNode("Member Affiliation: " + obj.affiliation || "none"));
   var pg = document.createElement("p");
   pg.appendChild(document.createTextNode("W3C Groups: "));
   obj.groups = obj.groups || [];
