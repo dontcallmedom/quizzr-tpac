@@ -1,0 +1,7 @@
+{
+  "name":"Quizzr TPAC 2015",
+  "icons":[{"src":"images/question.svg", "sizes":"any"}],
+  "display":"fullscreen",
+  "orientation":"portrait",
+  "start_url":"./"
+}
